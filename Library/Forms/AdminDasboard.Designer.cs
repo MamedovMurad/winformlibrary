@@ -77,7 +77,7 @@
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6,
             this.dataGridViewTextBoxColumn8});
-            this.DgvLate.Location = new System.Drawing.Point(239, 106);
+            this.DgvLate.Location = new System.Drawing.Point(226, 106);
             this.DgvLate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DgvLate.Name = "DgvLate";
             this.DgvLate.RowHeadersWidth = 51;
@@ -265,7 +265,7 @@
             this.BtnLate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.BtnLate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnLate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnLate.Location = new System.Drawing.Point(1202, 178);
+            this.BtnLate.Location = new System.Drawing.Point(1202, 332);
             this.BtnLate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnLate.Name = "BtnLate";
             this.BtnLate.Size = new System.Drawing.Size(237, 46);
@@ -278,7 +278,7 @@
             this.BtnTomorrow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.BtnTomorrow.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnTomorrow.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnTomorrow.Location = new System.Drawing.Point(1202, 106);
+            this.BtnTomorrow.Location = new System.Drawing.Point(1202, 231);
             this.BtnTomorrow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnTomorrow.Name = "BtnTomorrow";
             this.BtnTomorrow.Size = new System.Drawing.Size(237, 46);
@@ -291,7 +291,7 @@
             this.BtnTodayR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.BtnTodayR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnTodayR.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnTodayR.Location = new System.Drawing.Point(1202, 25);
+            this.BtnTodayR.Location = new System.Drawing.Point(1202, 136);
             this.BtnTodayR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnTodayR.Name = "BtnTodayR";
             this.BtnTodayR.Size = new System.Drawing.Size(227, 46);
@@ -347,9 +347,9 @@
             this.BtnOpenPersonCrud.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BtnOpenPersonCrud.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnOpenPersonCrud.Location = new System.Drawing.Point(8, 404);
-            this.BtnOpenPersonCrud.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOpenPersonCrud.Margin = new System.Windows.Forms.Padding(4);
             this.BtnOpenPersonCrud.Name = "BtnOpenPersonCrud";
-            this.BtnOpenPersonCrud.Size = new System.Drawing.Size(220, 106);
+            this.BtnOpenPersonCrud.Size = new System.Drawing.Size(211, 106);
             this.BtnOpenPersonCrud.TabIndex = 25;
             this.BtnOpenPersonCrud.Text = "People";
             this.BtnOpenPersonCrud.UseVisualStyleBackColor = false;
@@ -362,7 +362,7 @@
             this.BtnOpenBookCrud.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BtnOpenBookCrud.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.BtnOpenBookCrud.Location = new System.Drawing.Point(8, 265);
-            this.BtnOpenBookCrud.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOpenBookCrud.Margin = new System.Windows.Forms.Padding(4);
             this.BtnOpenBookCrud.Name = "BtnOpenBookCrud";
             this.BtnOpenBookCrud.Size = new System.Drawing.Size(211, 113);
             this.BtnOpenBookCrud.TabIndex = 26;
@@ -377,7 +377,7 @@
             this.BtnCreatedAdmin.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BtnCreatedAdmin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnCreatedAdmin.Location = new System.Drawing.Point(8, 2);
-            this.BtnCreatedAdmin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCreatedAdmin.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCreatedAdmin.Name = "BtnCreatedAdmin";
             this.BtnCreatedAdmin.Size = new System.Drawing.Size(512, 98);
             this.BtnCreatedAdmin.TabIndex = 25;
@@ -401,7 +401,7 @@
             this.Controls.Add(this.DgvExel);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.DgvTodaysRetuns);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AdminDasboard";
