@@ -23,6 +23,4 @@ namespace Library.Models
          [Required]
         public float bookPrice { get; set; }
     }
-}
-
-//test123
+}//test
